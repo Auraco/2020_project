@@ -40,5 +40,6 @@ def ini():
 	ax.pie(x,labels=y,autopct='%.1f%%',pctdistance=0.5,labeldistance=1.1,startangle=120,radius=1.2,counterclock=False,wedgeprops={'linewidth':1.5,'edgecolor':'black'},textprops={'fontsize':10,'color':'black'})
 	ax.set_title('音乐制作分布',pad=15)
 	plt.show()
+
 if __name__ == '__main__':
 	ini()
